@@ -8,13 +8,9 @@ Example:
 nmap 192.168.254.186 -oA scan
 
 PORT     STATE SERVICE
-
 53/tcp   open  domain
-
 80/tcp   open  http
-
 88/tcp   open  kerberos-sec
-
 135/tcp  open  msrpc
 
 139/tcp  open  netbios-ssn
