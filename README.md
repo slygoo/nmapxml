@@ -10,6 +10,7 @@ Starting Nmap 7.94 ( https://nmap.org ) at 2025-01-08 00:58 AEDT
 Nmap scan report for dc01.sly.local (192.168.254.186)
 Host is up (0.00020s latency).
 Not shown: 985 closed tcp ports (reset)
+
 PORT     STATE SERVICE
 53/tcp   open  domain
 80/tcp   open  http
