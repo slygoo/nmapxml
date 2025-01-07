@@ -6,14 +6,6 @@ Example:
 
 nmap 192.168.254.186 -oA scan
 
-Starting Nmap 7.94 ( https://nmap.org ) at 2025-01-08 00:58 AEDT
-
-Nmap scan report for dc01.sly.local (192.168.254.186)
-
-Host is up (0.00020s latency).
-
-Not shown: 985 closed tcp ports (reset)
-
 PORT     STATE SERVICE
 
 53/tcp   open  domain
@@ -44,9 +36,6 @@ PORT     STATE SERVICE
 
 3389/tcp open  ms-wbt-server
 9091/tcp open  xmltec-xmlmail=
-MAC Address: 00:0C:29:64:89:D7 (VMware)
-
-Nmap done: 1 IP address (1 host up) scanned in 10.70 seconds
 
 ./nmapxml
 
