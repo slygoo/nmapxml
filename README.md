@@ -33,7 +33,6 @@ PORT     STATE SERVICE
 3268/tcp open  globalcatLDAP
 
 3269/tcp open  globalcatLDAPssl
-
 3389/tcp open  ms-wbt-server
 9091/tcp open  xmltec-xmlmail=
 
