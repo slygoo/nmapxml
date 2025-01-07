@@ -4,6 +4,7 @@ Can be used on one xml file with the -f flag or on the current working directory
 
 Example:
 
+```
 nmap 192.168.254.186 -oA scan
 
 PORT     STATE SERVICE
@@ -33,7 +34,9 @@ PORT     STATE SERVICE
 3268/tcp open  globalcatLDAP
 
 3269/tcp open  globalcatLDAPssl
+
 3389/tcp open  ms-wbt-server
+
 9091/tcp open  xmltec-xmlmail=
 
 ./nmapxml
@@ -45,4 +48,5 @@ cat NmapResults.csv
 IP,Ports
 
 192.168.254.186,53 80 88 135 139 389 443 445 464 593 636 3268 3269 3389 9091
+```
 
