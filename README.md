@@ -43,15 +43,18 @@ PORT     STATE SERVICE
 3269/tcp open  globalcatLDAPssl
 
 3389/tcp open  ms-wbt-server
-
-9091/tcp open  xmltec-xmlmail
-
+9091/tcp open  xmltec-xmlmail=
 MAC Address: 00:0C:29:64:89:D7 (VMware)
 
 Nmap done: 1 IP address (1 host up) scanned in 10.70 seconds
+
 ./nmapxml
+
 2025/01/08 00:59:13 [+] Successfully Outputed To NmapResults.csv
+
 cat NmapResults.csv 
+
 IP,Ports
+
 192.168.254.186,53 80 88 135 139 389 443 445 464 593 636 3268 3269 3389 9091
 
